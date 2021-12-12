@@ -1,6 +1,8 @@
 import React from 'react'
-import { AppBar, Toolbar, IconButton, 
-    Typography } from '@material-ui/core'
+import {
+    AppBar, Toolbar, IconButton,
+    Typography
+} from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu'
 import { Link } from 'react-router-dom'
 
@@ -23,6 +25,9 @@ const Navigation = () => {
                     </li>
                     <li className="nav-list-item">
                         <Link to="/dashboard">Dasboard</Link>
+                    </li>
+                    <li className="nav-list-item">
+                        <Link to="/import">Import</Link>
                     </li>
                 </ul>
             </Toolbar>
